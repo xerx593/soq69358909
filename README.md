@@ -3,9 +3,9 @@ Reproduction code for https://stackoverflow.com/q/69358909/592355.
 
 ## Sorry, cannot reproduce!
 - Import with IntelliJ, Run (project Context->)Maven-> Generate Sources And Update Folders
-- Run `mvn clean install`
+- Alternatively: Run `mvn clean install` (or any build lifecycle involving "generate-sources")
 
-Classes are generated into `target/generated/src/main/java`.
+Sources are generated into `target/generated/src/main/java`.
 
 ## Environment
 - (latest) IntelliJ Community Edition: 2021.2.2
